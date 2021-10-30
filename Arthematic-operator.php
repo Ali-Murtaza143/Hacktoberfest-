@@ -31,6 +31,8 @@
                     <input type="number" id="fieldtwo" class="form-control mr-3">
                      <button type="button" onclick="check()" class="btn-b">Click Me!</button>
                   </form>
+                  <br>
+                  <h1 id="result"></h1>
                 </div>
               </div>
             </div>
@@ -45,7 +47,7 @@
         
          var multi = parseInt(dataone) * parseInt(datatwo);
          
-         alert(multi);
+         document.getElementById('result').innerHTML = multi;
            
        }
 
