@@ -8,12 +8,12 @@
 <div>
 <table border="3" cellpadding = "3" cellspacing = "0">
 <?php
-for($i=1; $i<=6; $i++){
+for($counter=1; $counter<=6; $counter++){
 echo "<tr>";
 for($j=1; $j<=5; $j++)
 {
-$ans = $i*$j;
-echo"<td> $i * $j = $ans </td>";
+$ans = $counter*$j;
+echo"<td> $counter * $j = $ans </td>";
 }
 echo "</tr>";
 }
