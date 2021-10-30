@@ -27,8 +27,8 @@
                 <div class="col-lg-8 col-sm-8 col-12">
                 <h5>Add Two numbers</h5>
                   <form action="" class="mt-4 d-flex">
-                    <input type="number" id="fieldone" class="form-control mr-3">
-                    <input type="number" id="fieldtwo" class="form-control mr-3">
+                    <input type="number" id="fieldone" min="1" max="999" class="form-control mr-3">
+                    <input type="number" id="fieldtwo" min="1" max="999" class="form-control mr-3">
                      <button type="button" onclick="check()" class="btn-b">Click Me!</button>
                   </form>
                   <br>
