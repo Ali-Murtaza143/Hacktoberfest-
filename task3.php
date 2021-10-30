@@ -7,11 +7,14 @@
 <?php
 $name = "";
 $password = "";
-if($_POST["submit"])
+if(isset($_POST["submit"]))
 {
-if($_POST["name"]=="18CS30"&&$_POST["password"]=="18CS30"){ $name = $_POST["name"];
-$password = $_POST["password"]; echo "<p> WELCOME ".$name. "</p>";}
-else{die("Wrong Credentials");
+if( isset($_POST["name"]) && $_POST["name"]=="18CS30" && isset($_POST["password"]) && $_POST["password"]=="18CS30"){ 
+$name = $_POST["name"];
+$password = $_POST["password"]; 
+echo "<p> WELCOME ".$name. "</p>";}
+else{
+  die("Wrong Credentials");
 }
 }
 
