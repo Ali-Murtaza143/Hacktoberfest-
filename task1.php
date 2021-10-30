@@ -5,12 +5,12 @@
 </head>
 <body>
 <h1>TASK-1</h1>
-<form method="POST">
+<form method="POST" action="" >
 <input type="text" name="number" placeholder="Enter a number">
 <input type="submit" value="submit" name="submit">
 </form>
 <?php
-if($_POST["submit"]){
+if(isset($_POST["submit"])){
 $number = $_POST["number"];
 for($i=1; $i<=10; $i++){
 $ans = $i*$number;
