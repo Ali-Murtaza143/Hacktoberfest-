@@ -6,7 +6,7 @@
 <body>
 <h1>TASK-4</h1>
 <div>
-<table border="3" cellpadding = "3" cellspacing = "0">
+<table border="3" cellpadding = "3" cellspacing = "2">
 <?php
 for($i=1; $i<=6; $i++){
 echo "<tr>";
