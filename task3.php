@@ -2,7 +2,7 @@
 <form action="" method="post">
 <label for="name">Name:</label><input type="text" name="name" id="name"><br><br>
 <label for="password">Password:</label><input type="password" name="password" id="password"><br><br>
-<input type="submit" value="submit" name="submit"><br><br></form>
+<button type="submit" value="submit" name="submit"></button><br><br></form>
 
 <?php
 $name = "";
