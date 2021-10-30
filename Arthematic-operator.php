@@ -17,6 +17,10 @@
       <style type="text/css" media="screen">
         button {
      width: 100%;
+          background:"teal";
+          padding:5px 10px;
+          font-weight:bold;
+          
         }
       </style>
     </head>
